@@ -48,21 +48,23 @@
 // counter(43);
 
 // 5 - Crear una función que reciba una palabra y un número por parámetro e imprima por consola  esa palabra la cantidad correspondiente al número indicado. ✅
-function wordsLenght(word, numero) {
-  for (i = 0; i < numero; i++) {
-    console.log(`Se imprime la palabra ${word} la cantidad de  ${numero}`);
-  }
-}
+// function wordsLenght(word, numero) {
+//   for (i = 0; i < numero; i++) {
+//     console.log(`Se imprime la palabra ${word} la cantidad de  ${numero}`);
+//   }
+// }
 
-wordsLenght("Javascript", 100);
+// wordsLenght("Javascript", 100);
 
-// 6 - Crear una función que reciba un array por parámetro e imprima por consola todos los valores de ese array.
+// 6 - Crear una función que reciba un array por parámetro e imprima por consola todos los valores de ese array. ✅
+
+// function getArray(myArray) {
+//   let array = [myArray];
+//   console.log(myArray);
+// }
+
+// getArray([1, 2, 4, "Hola", true]);
 
 // 7 - Crear una función que reciba un array con 10 números e imprima por consola todos los valores de ese array, menos el que se encuentre en la 5ta posición del mismo. Ayuda: Recuerden que el primer índice de un array es "0".
 
 // 8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
-
-// | Forma de entrega:
-// Los ejercicios deberán ser entregados por medio de esta plataforma.
-// Deberán subir su trabajo a un repositorio de Github, deployarlo en Vercel, y entregar ambos links.
-// No se aceptarán archivos sueltos, comprimidos ni subidos a drive.
